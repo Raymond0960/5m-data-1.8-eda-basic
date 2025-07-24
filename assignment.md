@@ -19,9 +19,6 @@ import pandas as pd
 df = pd.DataFrame({'A': [1, 52, 3, 4, 55], 'B': [10, 20, 30, 40, 50]})
 threshold = 30
 
-# Filter rows where 'B' is greater than threshold OR 'A' is less than threshold
-df_filtered = df[(df['B'] > threshold) | (df['A'] > threshold)]
-df_filtered
 ```
 
 Answer:
