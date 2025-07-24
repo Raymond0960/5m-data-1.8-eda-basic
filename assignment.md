@@ -41,7 +41,12 @@ df = pd.DataFrame({'A': [2, 1, 2], 'B': [2, 3, 1], 'C': [1, 2, 3]})
 Answer:
 
 ```python
-
+df.sort_values(by=['A', 'B'], ascending=[False, False])
+# Sort Column 'A' and 'B' in ascending order
+'''
+'''python
+df.sort_values(by=['A', 'B'], ascending=[False, False])
+# Sort Column 'A' and 'B' in ascending order
 ```
 
 ### Question 3
