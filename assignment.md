@@ -42,10 +42,10 @@ Answer:
 
 ```python
 df.sort_values(by=['A', 'B'], ascending=[False, False])
-# Sort Column 'A' and 'B' in ascending order
+# Sort Column 'A' and 'B' in descending order
 ```
 ```python
-df.sort_values(by=['A', 'B'], ascending=[False, False])
+df.sort_values(by=['A', 'B'], ascending=[True, True])
 # Sort Column 'A' and 'B' in ascending order
 ```
 
